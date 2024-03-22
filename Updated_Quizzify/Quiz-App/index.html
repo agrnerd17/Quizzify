@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS library -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+      defer
+    />
+    <title>Quizzify</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/main.js" defer></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-logo">
+          <h1 class="logo">Quizzify</h1>
+        </div>
+
+        <div class="navbar-buttons">
+          <button class="nav-btn"><a href="login.html" target="blank" class="nav-btn">Login</a>
+          </button>
+          <button class="nav-btn"><a href="./signup.html" target="blank" class="nav-btn">Sign-Up</a>
+          </button>
+          <a href="login.html"></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <h2>Quizzes</h2>
+
+      <ul class="quiz-list">
+        <li class="quiz-card">
+          <h3 class="quiz-title">Movie Quiz</h3>
+          <p>
+            Challenge your knowledge of popular movies, actors, directors, and
+            famous quotes.
+          </p>
+          <button class="quiz-btn" data-bs-toggle="modal" data-bs-target="#myModal">Play</button>
+        
+          <!--Modal for Movie Quiz-->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModallabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Movie Quiz Question Bank</h4>
+                </div>
+                <div class="modal-body">
+                  <!--add questions here-->
+                  <p>Question 1</p>
+                  <p>Question 2</p>
+                  <p>Question 3</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+        <li class="quiz-card">
+          <h3 class="quiz-title">Music Quiz</h3>
+          <p>
+            Test your knowledge of music genres, artists, albums, and song
+            lyrics.
+          </p>
+          <button class="quiz-btn" data-bs-toggle="modal" data-bs-target="#myModal">Play</button>
+           <!--Modal for Music Quiz-->
+           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModallabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Music Quiz Question Bank</h4>
+                </div>
+                <div class="modal-body">
+                  <!--add questions here-->
+                  <p>Question 1</p>
+                  <p>Question 2</p>
+                  <p>Question 3</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </li>
+        <li class="quiz-card">
+          <h3 class="quiz-title">Tech Quiz</h3>
+          <p>
+            Assess your understanding of technology trends, programming
+            languages, software tools, and tech history.
+          </p>
+          <button class="quiz-btn" data-bs-toggle="modal" data-bs-target="#myModal">Play</button>
+
+           <!--Modal for Tech Quiz-->
+           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModallabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Tech Quiz Question Bank</h4>
+                </div>
+                <div class="modal-body">
+                  <!--add questions here-->
+                  <p>Question 1</p>
+                  <p>Question 2</p>
+                  <p>Question 3</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </li>
+        <li class="quiz-card">
+          <h3 class="quiz-title">Sports Quiz</h3>
+          <p>
+            Challenge your knowledge of various sports, athletes, teams, and
+            iconic moments.
+          </p>
+          <button class="quiz-btn" data-bs-toggle="modal" data-bs-target="#myModal">Play</button>
+
+           <!--Modal for Sports Quiz-->
+           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModallabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Sports Quiz Question Bank</h4>
+                </div>
+                <div class="modal-body">
+                  <!--add questions here-->
+                  <p>Question 1</p>
+                  <p>Question 2</p>
+                  <p>Question 3</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </li>
+        <!-- Add more quiz cards as needed -->
+      </ul>
+    </div>
+  </body>
+</html>
