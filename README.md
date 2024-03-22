@@ -3,7 +3,7 @@ Quiz-app created for Front-End Web Development course. An interactive quiz web a
 
 ## Description
 
-Quizzify is a lightweight web application built using HTML, CSS, and JavaScript, with the power of Bootstrap framework for enhanced design and responsiveness. It offers an intuitive interface for taking quizzes effortlessly. Dive into a world of interactive learning and fun quizzes with Quiz-App!
+Quizzify is a lightweight web application built using HTML, CSS, and JavaScript, with the power of Bootstrap framework for enhanced design and responsiveness. It offers an intuitive interface for taking quizzes effortlessly. Dive into a world of interactive learning and fun quizzes with Quizzify!
 
 ## About the project:
 
