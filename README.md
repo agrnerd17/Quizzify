@@ -1,5 +1,5 @@
 # Quizzify
-Quiz-app created for Front-End Web Development course. An interactive quiz web application using HTML, CSS, Bootstrap, JavaScript.
+First project Quiz-app created for Front-End Web Development course. An interactive quiz web application using HTML, CSS, Bootstrap, JavaScript.
 
 ## Description
 
