@@ -1,0 +1,11 @@
+// This file can be treated as a regular css.
+// Sass compiles .scess files into a regular css file.
+
+// Must declare custom variables before importing bootstrap
+
+$primary: #6610f2;
+.flex-even {
+  flex: 1;
+}
+
+@import "bootstrap/scss/bootstrap";

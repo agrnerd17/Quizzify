@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quizzify</title>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </head>
+
+  <!-- hardcode data-bs-theme="dark" to make it dark mode by default -->
+  <body data-bs-theme="dark" class="d-flex flex-column">
+    <!-- bootstrap navbar -->
+    <nav class="container-fluid navbar navbar-expand-lg bg-primary">
+      <div class="container-xl align-items-center">
+        <a class="navbar-brand mb-0 h1" href="/#">Quizzify</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav,#navbarBtns"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse align-items-center justify-content-between"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#">Latest Updates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#">Leaderboard</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="flex-even">
+              <button class="btn btn-secondary" id="random-btn">
+                Random Quiz
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-xl my-auto text-center" id="app">
+      <div id="main-menu" class="">
+        <div class="d-flex flex-column mb-5 mt-5 gap-2">
+          <h1>Welcome to Quizzify</h1>
+          <h6>Get started by selecting a quiz category</h6>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="/movies.jpg" class="opacity-75" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Movie Quiz</h5>
+                <p class="card-text">
+                  Challenge your knowledge of popular movies, actors, directors,
+                  and famous quotes.
+                </p>
+                <button
+                  data-quiz-type="movies"
+                  class="btn btn-primary quiz-btn"
+                >
+                  Start Playing
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/music.jpg" class="card-img-top opacity-75" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Music Quiz</h5>
+                <p class="card-text">
+                  Test your knowledge of music genres, artists, albums, and
+                  awesome song lyrics.
+                </p>
+                <button class="btn btn-primary quiz-btn" data-quiz-type="music">
+                  Start Playing
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/tech.jpg" class="card-img-top opacity-75" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Tech Quiz</h5>
+                <p class="card-text">
+                  Assess your understanding of technology and programming.
+                </p>
+                <button data-quiz-type="tech" class="btn btn-primary quiz-btn">
+                  Start Playing
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="/sports.jpg"
+                class="card-img-top opacity-75"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sports Quiz</h5>
+                <p class="card-text">
+                  Challenge your knowledge of various sports, athletes, teams,
+                  and iconic moments.
+                </p>
+                <button
+                  data-quiz-type="sports"
+                  class="btn btn-primary quiz-btn"
+                >
+                  Start Playing
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
